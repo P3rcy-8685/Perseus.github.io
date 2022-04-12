@@ -1,5 +1,5 @@
 var blink = document.getElementById('blink');
-var me=["Web Developer.","Chess Player.","Bibliophile.","Coder.","Aspiring Professor.","Intending Physicist.","Leader.","Student."];
+var me=["Web Developer.","Chess Player.","Bibliophile.","Coder.","Aspiring Professor.","Intending Mathematician.","Leader.","Student."];
 setInterval(function() {blink.style.opacity = (blink.style.opacity == 0 ? 1 : 0);}, 530)
 async function typeSentence(sentence, delay = 80) {
   const letters = sentence.split("");
